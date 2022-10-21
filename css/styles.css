@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{}
+
+A:link { color: #212121; text-decoration: none; }
+A:hover { color: #2196F3; text-decoration: none; }
+
+.main-banner{
+background-color: #2F303A;
+width: 1600;
+height: 600px;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.main-title{
+color: #FFFFFF;
+padding-top: 200px;
+font-size: 40px;
+width: 700px;
+line-height: 116%;
+align-self: center;
+font-weight: 900;
+text-transform: uppercase;
+}
+
+.main-button{
+margin-top: 30px;
+width: 216px;
+height: 50px;
+border-radius: 4px;
+background-color: #2196F3;
+align-self: center ;
+color: #fff;
+font-size: 15px;
+}
+
+.description{
+display: flex;    
+justify-content: space-around;
+flex-direction: row;
+padding: 94px 200px 0 200px;
+}
+
+.description-fact{
+font-size: 13px;
+width: 25%;
+padding: 0 15px 0 15px;
+}
+
+.description-title{
+color: #212121;
+font-weight: 600;
+padding-bottom: 10px;
+}
+
+.description-text{
+color: #757575;
+font-weight: 300;
+line-height: 146%;
+}
+
+.portfolio{
+padding: 94px 200px;
+display: flex;    
+flex-direction: column;
+}
+
+.portfolio-title{
+font-size: 32px;
+font-weight: 700;
+color: #212121;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.portfolio-image{
+padding: 0 15px 0px 15px;
+}
+
+.team{
+    background-color: #F5F4FA;
+    padding: 94px 200px;
+}
+
+.team-title{
+font-size: 32px;
+font-weight: 700;
+color: #212121;
+text-align: center;
+}
+
+.team-info{
+    margin-top: 50px;
+    margin-top: 94px;
+}
+.team-fact{
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #757575;
+font-weight: 300;
+line-height: 146%;
+}
+
+.team-description{
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+#e0e0e0 3px;
